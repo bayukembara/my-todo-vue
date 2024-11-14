@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Inputform from "./InputForm.vue";
 import TodoItem from "./TodoItem.vue";
-import { todoList, toggleTodo, deleteTodo } from "../services/try";
+import { todoList, toggleTodo, deleteTodo } from "../services/todoService";
 </script>
 
 <template>
