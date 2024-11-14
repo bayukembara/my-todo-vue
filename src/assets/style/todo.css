@@ -1,0 +1,5 @@
+.completed {
+  text-decoration: line-through !important;
+  color: gray;
+  opacity: 0.6;
+}
