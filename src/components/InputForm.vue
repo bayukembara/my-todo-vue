@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Button from "./Button.vue";
-import { defineEmits, ref } from "vue";
-import { submitTodo, clicked } from "../services/todoService";
+import { ref } from "vue";
+import { submitTodo } from "../services/todoService";
 
 const props = defineProps<{
   msg: string;

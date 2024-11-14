@@ -6,7 +6,10 @@ const props = defineProps<{
   todo: { id: number; description: string; completed: boolean };
 }>();
 
-const emit = defineEmits<{ (e: "toggle", id: number): void }>();
+const emit = defineEmits<{
+  (e: "toggle", id: number): void;
+  (e: "delete", id: number): void;
+}>();
 
 const toggleTodo = () => {
   emit("toggle", props.todo.id);
